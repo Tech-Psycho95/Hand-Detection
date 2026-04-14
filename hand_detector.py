@@ -63,7 +63,7 @@ class HandDetector:
         
         # Add cooldown to prevent overlapping audio
         if self.detection_cooldown > 0:
-            self.detection_cooldown -= 0.5
+            self.detection_cooldown -= 0.7
             return
         
         try:
